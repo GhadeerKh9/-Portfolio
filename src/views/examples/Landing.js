@@ -40,7 +40,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -81,16 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Technology excites me! {/* <span>Programm</span> */}
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Technology civilzes the world! Networking and job
+                        hunting became very easy!
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -99,8 +97,8 @@ class Landing extends React.Component {
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -111,7 +109,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -148,14 +146,12 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Salmon-Cookie Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            This is one of the projects I've created.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
@@ -165,12 +161,12 @@ class Landing extends React.Component {
                             <Badge color="primary" pill className="mr-1">
                               creative
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://ghadeerkh9.github.io/cookie-stand/"
+                            // onClick={e => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -184,14 +180,12 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Buss Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Bus Mall is one of the projects I created.
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="success" pill className="mr-1">
                               business
                             </Badge>
@@ -201,12 +195,12 @@ class Landing extends React.Component {
                             <Badge color="success" pill className="mr-1">
                               success
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://ghadeerkh9.github.io/buss-mall/"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -220,14 +214,12 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            SaveMe
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            SaveMe is a blood donation website
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -237,12 +229,12 @@ class Landing extends React.Component {
                             <Badge color="warning" pill className="mr-1">
                               launch
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://pro-fellows.github.io/SaveMe/"
+                            // onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -255,7 +247,7 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg">
-            <Container>
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -329,9 +321,9 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
           </section>
-          <section className="section bg-secondary">
+          {/* <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -401,7 +393,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
@@ -422,15 +414,32 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">My Background</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        My name is Ghadeer khasawneh, I studied aeronautical
+                        engineering and I am currently studying software
+                        development. I have worked for several NGOs in Jordan as
+                        a humanitarian worker and a capacity building trainer,
+                        trying to help young Jordanians and Syrian refugees to
+                        pursue their education and addressing their personal,
+                        emotional and professional development. One of my goals
+                        is to raise awareness about sustainability, I used to
+                        conduct awareness sessions about environment, solid
+                        waste management, and that’s one thing I like about
+                        technology that it helps you go greener by minimizing
+                        the paper you use, it allows you learn and challenge
+                        yourself, opens up opportunities for you, and boost your
+                        professional network. It also gives you a great sense of
+                        satisfaction, as you find solution to problems, for
+                        instance one of the projects I worked on that I am proud
+                        of and think it could make a good impact on society is a
+                        website called save me that facilitate blood donation
+                        processes for people in need and encourages more people
+                        to donate.
                       </p>
                     </div>
                   </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
+                  {/* <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
@@ -457,8 +466,8 @@ class Landing extends React.Component {
                         </div>
                       </div>
                     </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
+                  </Card> */}
+                  {/* <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
@@ -485,11 +494,11 @@ class Landing extends React.Component {
                         </div>
                       </div>
                     </CardBody>
-                  </Card>
+                  </Card> */}
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+            {/* SVG separator
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -504,9 +513,9 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -537,7 +546,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -545,7 +554,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -553,7 +562,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -581,7 +590,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -589,7 +598,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -597,7 +606,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -623,7 +632,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -631,7 +640,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -639,7 +648,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -665,7 +674,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -673,7 +682,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -681,7 +690,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -691,8 +700,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section section-lg pt-0">
+          </section> */}
+          {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -722,9 +731,9 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
+          </section> */}
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            {/* <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -768,9 +777,9 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -784,10 +793,10 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
-            <Container>
+          {/* <section className="section section-lg pt-lg-0 section-contact-us"> */}
+          {/* <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
@@ -798,7 +807,7 @@ class Landing extends React.Component {
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
-                          focused: this.state.nameFocused
+                          focused: this.state.nameFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -817,7 +826,7 @@ class Landing extends React.Component {
                       </FormGroup>
                       <FormGroup
                         className={classnames({
-                          focused: this.state.emailFocused
+                          focused: this.state.emailFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -829,8 +838,12 @@ class Landing extends React.Component {
                           <Input
                             placeholder="Email address"
                             type="email"
-                            onFocus={() => this.setState({ emailFocused: true })}
-                            onBlur={() => this.setState({ emailFocused: false })}
+                            onFocus={() =>
+                              this.setState({ emailFocused: true })
+                            }
+                            onBlur={() =>
+                              this.setState({ emailFocused: false })
+                            }
                           />
                         </InputGroup>
                       </FormGroup>
@@ -859,9 +872,9 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container>
-          </section>
-          <Download />
+            </Container> */}
+          {/* </section> */}
+          {/* <Download /> */}
         </main>
         <CardsFooter />
       </>
