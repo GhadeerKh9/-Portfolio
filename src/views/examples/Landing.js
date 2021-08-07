@@ -149,7 +149,7 @@ class Landing extends React.Component {
                             Salmon-Cookie Project
                           </h6>
                           <p className="description mt-3">
-                            This is one of the projects I've created.
+                            This is one of the projects I've created in 201 level.
                           </p>
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
